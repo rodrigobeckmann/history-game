@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "text": "Em que ano o Brasil foi descoberto pelos portugueses?",
+      "options": [
+        "1498",
+        "1500",
+        "1502",
+        "1494"
+      ],
+      "answer": "1500"
+    },
+    {
+      "id": 2,
+      "text": "Quem foi o primeiro imperador do Brasil?",
+      "options": [
+        "Dom Pedro I",
+        "Dom Pedro II",
+        "Dom João VI",
+        "Dom Manuel I"
+      ],
+      "answer": "Dom Pedro I"
+    },
+    {
+      "id": 3,
+      "text": "Qual foi o período da ditadura militar no Brasil?",
+      "options": [
+        "1964-1985",
+        "1960-1980",
+        "1968-1988",
+        "1962-1982"
+      ],
+      "answer": "1964-1985"
+    },
+    {
+      "id": 4,
+      "text": "Em que ano foi assinada a Lei Áurea?",
+      "options": [
+        "1888",
+        "1889",
+        "1885",
+        "1890"
+      ],
+      "answer": "1888"
+    },
+    {
+      "id": 5,
+      "text": "Qual foi a primeira capital do Brasil?",
+      "options": [
+        "Salvador",
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasília"
+      ],
+      "answer": "Salvador"
+    },
+    {
+      "id": 6,
+      "text": "Quem pintou o quadro 'Independência ou Morte'?",
+      "options": [
+        "Pedro Américo",
+        "Victor Meirelles",
+        "Tarsila do Amaral",
+        "Di Cavalcanti"
+      ],
+      "answer": "Pedro Américo"
+    },
+    {
+      "id": 7,
+      "text": "Em que ano foi proclamada a República no Brasil?",
+      "options": [
+        "1889",
+        "1888",
+        "1890",
+        "1891"
+      ],
+      "answer": "1889"
+    }
+  ]
