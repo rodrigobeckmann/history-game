@@ -12,6 +12,11 @@
       <GameTable ref="gameTable" class="game-table" />
     </div>
     <FeedbackModal :message="feedbackMessage" :isVisible="isFeedbackVisible" :type="feedbackType" />
+    <JustificationModal 
+      :isVisible="isJustificationVisible"
+      :justification="currentQuestion?.justification"
+      @close="closeJustification"
+    />
   </div>
 </template>
 
@@ -20,6 +25,7 @@ import { ref, computed, watch, onUnmounted } from 'vue';
 import GameTable from './GameTable.vue';
 import QuestionBox from './QuestionBox.vue';
 import FeedbackModal from './FeedbackModal.vue';
+import JustificationModal from './JustificationModal.vue';
 import questions from '../data/historia-brasil.json';
 
 const props = defineProps(['playerNames']);
@@ -33,6 +39,7 @@ const feedbackMessage = ref("");
 const isFeedbackVisible = ref(false);
 const feedbackType = ref('');
 const isChangingTurn = ref(false);
+const isJustificationVisible = ref(false);
 
 const feedbackTimeout = ref(null);
 const turnChangeTimeout = ref(null);
@@ -55,11 +62,12 @@ function handleAnswer(answer) {
     gameTable.value.movePawn(currentPlayerIndex.value);
     correctSound.play();
     showFeedback("Resposta Correta!", true);
+    switchTurn();
   } else {
     wrongSound.play();
     showFeedback("Resposta Incorreta!", false);
+    isJustificationVisible.value = true;
   }
-  switchTurn();
 }
 
 function showFeedback(message, isSuccess = true) {
@@ -70,23 +78,43 @@ function showFeedback(message, isSuccess = true) {
   feedbackType.value = isSuccess ? 'success' : 'error';
   isFeedbackVisible.value = true;
   
-  feedbackTimeout.value = setTimeout(() => {
-    isFeedbackVisible.value = false;
-    isChangingTurn.value = true;
-    feedbackMessage.value = `Vez de ${props.playerNames[(currentPlayerIndex.value + 1) % 2]}!`;
-    feedbackType.value = 'turn';
-    isFeedbackVisible.value = true;
-    
-    turnChangeTimeout.value = setTimeout(() => {
+  if (isSuccess) {
+    feedbackTimeout.value = setTimeout(() => {
       isFeedbackVisible.value = false;
-      isChangingTurn.value = false;
-    }, 1500);
-  }, 1000);
+      isChangingTurn.value = true;
+      feedbackMessage.value = `Vez de ${props.playerNames[(currentPlayerIndex.value + 1) % 2]}!`;
+      feedbackType.value = 'turn';
+      isFeedbackVisible.value = true;
+      
+      turnChangeTimeout.value = setTimeout(() => {
+        isFeedbackVisible.value = false;
+        isChangingTurn.value = false;
+      }, 1500);
+    }, 1000);
+  } else {
+    feedbackTimeout.value = setTimeout(() => {
+      isFeedbackVisible.value = false;
+    }, 1000);
+  }
 }
 
 function switchTurn() {
   currentPlayerIndex.value = (currentPlayerIndex.value + 1) % 2;
   loadNextQuestion();
+}
+
+function closeJustification() {
+  isJustificationVisible.value = false;
+  feedbackMessage.value = `Vez de ${props.playerNames[(currentPlayerIndex.value + 1) % 2]}!`;
+  feedbackType.value = 'turn';
+  isFeedbackVisible.value = true;
+  
+  turnChangeTimeout.value = setTimeout(() => {
+    isFeedbackVisible.value = false;
+    isChangingTurn.value = false;
+  }, 1500);
+  
+  switchTurn();
 }
 
 onUnmounted(() => {

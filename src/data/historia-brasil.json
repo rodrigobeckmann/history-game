@@ -1,79 +1,86 @@
 [
-    {
+  {
       "id": 1,
       "text": "Em que ano o Brasil foi descoberto pelos portugueses?",
       "options": [
-        "1498",
-        "1500",
-        "1502",
-        "1494"
+          "1498",
+          "1500",
+          "1502",
+          "1494"
       ],
-      "answer": "1500"
-    },
-    {
+      "answer": "1500",
+      "justification": "O Brasil foi descoberto em 22 de abril de 1500, quando Pedro Álvares Cabral chegou ao território brasileiro enquanto liderava uma expedição portuguesa."
+  },
+  {
       "id": 2,
       "text": "Quem foi o primeiro imperador do Brasil?",
       "options": [
-        "Dom Pedro I",
-        "Dom Pedro II",
-        "Dom João VI",
-        "Dom Manuel I"
+          "Dom Pedro I",
+          "Dom Pedro II",
+          "Dom João VI",
+          "Dom Manuel I"
       ],
-      "answer": "Dom Pedro I"
-    },
-    {
+      "answer": "Dom Pedro I",
+      "justification": "Dom Pedro I foi proclamado o primeiro imperador do Brasil em 1822, após declarar a independência de Portugal em 7 de setembro do mesmo ano."
+  },
+  {
       "id": 3,
       "text": "Qual foi o período da ditadura militar no Brasil?",
       "options": [
-        "1964-1985",
-        "1960-1980",
-        "1968-1988",
-        "1962-1982"
+          "1964-1985",
+          "1960-1980",
+          "1968-1988",
+          "1962-1982"
       ],
-      "answer": "1964-1985"
-    },
-    {
+      "answer": "1964-1985",
+      "justification": "A ditadura militar no Brasil teve início em 1964, com um golpe militar que depôs o presidente João Goulart, e terminou em 1985, com a redemocratização e a posse de Tancredo Neves como presidente eleito pelo colégio eleitoral."
+  },
+  {
       "id": 4,
       "text": "Em que ano foi assinada a Lei Áurea?",
       "options": [
-        "1888",
-        "1889",
-        "1885",
-        "1890"
+          "1888",
+          "1889",
+          "1885",
+          "1890"
       ],
-      "answer": "1888"
-    },
-    {
+      "answer": "1888",
+      "justification": "A Lei Áurea foi assinada em 13 de maio de 1888 pela Princesa Isabel, abolindo oficialmente a escravidão no Brasil."
+  },
+  {
       "id": 5,
       "text": "Qual foi a primeira capital do Brasil?",
       "options": [
-        "Salvador",
-        "Rio de Janeiro",
-        "São Paulo",
-        "Brasília"
+          "Salvador",
+          "Rio de Janeiro",
+          "São Paulo",
+          "Brasília"
       ],
-      "answer": "Salvador"
-    },
-    {
+      "answer": "Salvador",
+      "justification": "Salvador foi a primeira capital do Brasil, fundada em 1549, e permaneceu como capital até 1763, quando o Rio de Janeiro assumiu essa posição."
+  },
+  {
       "id": 6,
       "text": "Quem pintou o quadro 'Independência ou Morte'?",
       "options": [
-        "Pedro Américo",
-        "Victor Meirelles",
-        "Tarsila do Amaral",
-        "Di Cavalcanti"
+          "Pedro Américo",
+          "Victor Meirelles",
+          "Tarsila do Amaral",
+          "Di Cavalcanti"
       ],
-      "answer": "Pedro Américo"
-    },
-    {
+      "answer": "Pedro Américo",
+      "justification": "Pedro Américo, um dos mais importantes pintores do Brasil imperial, foi o autor do quadro 'Independência ou Morte', concluído em 1888 e que retrata o momento da proclamação da independência."
+  },
+  {
       "id": 7,
       "text": "Em que ano foi proclamada a República no Brasil?",
       "options": [
-        "1889",
-        "1888",
-        "1890",
-        "1891"
+          "1889",
+          "1888",
+          "1890",
+          "1891"
       ],
-      "answer": "1889"
-    }
-  ]
+      "answer": "1889",
+      "justification": "A República foi proclamada em 15 de novembro de 1889, por Marechal Deodoro da Fonseca, encerrando o período monárquico no Brasil."
+  }
+]
