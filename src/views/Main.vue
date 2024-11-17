@@ -1,6 +1,5 @@
 <template>
   <div class="main-wrapper">
-    <!-- Configuração Inicial dos Jogadores -->
     <div v-if="!isGameStarted" class="setup">
       <h2>Configuração dos Jogadores</h2>
       <div>
@@ -14,7 +13,6 @@
       <button @click="startGame">Iniciar Jogo</button>
     </div>
 
-    <!-- Exibição do GamePage com os nomes dos jogadores -->
     <GamePage v-else :playerNames="playerNames" />
   </div>
 </template>
@@ -23,10 +21,9 @@
 import { ref } from 'vue';
 import GamePage from '../components/GamePage.vue';
 
-const playerNames = ref(["", ""]); // Armazena os nomes dos jogadores
+const playerNames = ref(["", ""]);
 const isGameStarted = ref(false);
 
-// Função para iniciar o jogo
 function startGame() {
   if (playerNames.value[0] && playerNames.value[1]) {
     isGameStarted.value = true;
