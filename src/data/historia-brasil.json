@@ -1,86 +1,1118 @@
 [
   {
-      "id": 1,
-      "text": "Em que ano o Brasil foi descoberto pelos portugueses?",
-      "options": [
-          "1498",
-          "1500",
-          "1502",
-          "1494"
-      ],
-      "answer": "1500",
-      "justification": "O Brasil foi descoberto em 22 de abril de 1500, quando Pedro Álvares Cabral chegou ao território brasileiro enquanto liderava uma expedição portuguesa."
+    "id": 8,
+    "text": "Qual foi o primeiro país africano que Portugal estabeleceu relações para o tráfico de escravos?",
+    "options": [
+      "Reino do Congo",
+      "Angola",
+      "Moçambique",
+      "Guiné-Bissau"
+    ],
+    "answer": "Reino do Congo",
+    "justification": "Portugal estabeleceu as primeiras relações comerciais para o tráfico de escravos com o Reino do Congo no século XV, iniciando assim o comércio transatlântico de escravos para o Brasil."
   },
   {
-      "id": 2,
-      "text": "Quem foi o primeiro imperador do Brasil?",
-      "options": [
-          "Dom Pedro I",
-          "Dom Pedro II",
-          "Dom João VI",
-          "Dom Manuel I"
-      ],
-      "answer": "Dom Pedro I",
-      "justification": "Dom Pedro I foi proclamado o primeiro imperador do Brasil em 1822, após declarar a independência de Portugal em 7 de setembro do mesmo ano."
+    "id": 9,
+    "text": "Qual lei antecedeu a Lei Áurea e ficou conhecida como 'Lei do Ventre Livre'?",
+    "options": [
+      "Lei nº 2.040 de 1871",
+      "Lei Eusébio de Queirós",
+      "Lei Feijó de 1831",
+      "Lei Saraiva-Cotegipe"
+    ],
+    "answer": "Lei nº 2.040 de 1871",
+    "justification": "A Lei do Ventre Livre, promulgada em 28 de setembro de 1871, determinava que os filhos de escravas nascidos a partir daquela data seriam considerados livres."
   },
   {
-      "id": 3,
-      "text": "Qual foi o período da ditadura militar no Brasil?",
-      "options": [
-          "1964-1985",
-          "1960-1980",
-          "1968-1988",
-          "1962-1982"
-      ],
-      "answer": "1964-1985",
-      "justification": "A ditadura militar no Brasil teve início em 1964, com um golpe militar que depôs o presidente João Goulart, e terminou em 1985, com a redemocratização e a posse de Tancredo Neves como presidente eleito pelo colégio eleitoral."
+    "id": 10,
+    "text": "Qual porto brasileiro recebeu o maior número de africanos escravizados?",
+    "options": [
+      "Rio de Janeiro",
+      "Salvador",
+      "Recife",
+      "São Luís"
+    ],
+    "answer": "Rio de Janeiro",
+    "justification": "O porto do Rio de Janeiro foi o maior porto de entrada de africanos escravizados nas Américas, recebendo mais de 2 milhões de pessoas durante o período do tráfico negreiro."
   },
   {
-      "id": 4,
-      "text": "Em que ano foi assinada a Lei Áurea?",
-      "options": [
-          "1888",
-          "1889",
-          "1885",
-          "1890"
-      ],
-      "answer": "1888",
-      "justification": "A Lei Áurea foi assinada em 13 de maio de 1888 pela Princesa Isabel, abolindo oficialmente a escravidão no Brasil."
+    "id": 11,
+    "text": "Em que ano foi promulgada a Lei Eusébio de Queirós?",
+    "options": [
+      "1850",
+      "1845",
+      "1855",
+      "1860"
+    ],
+    "answer": "1850",
+    "justification": "A Lei Eusébio de Queirós foi promulgada em 4 de setembro de 1850 e proibiu o tráfico de escravos para o Brasil, sendo a primeira medida efetiva para o fim da escravidão."
   },
   {
-      "id": 5,
-      "text": "Qual foi a primeira capital do Brasil?",
-      "options": [
-          "Salvador",
-          "Rio de Janeiro",
-          "São Paulo",
-          "Brasília"
-      ],
-      "answer": "Salvador",
-      "justification": "Salvador foi a primeira capital do Brasil, fundada em 1549, e permaneceu como capital até 1763, quando o Rio de Janeiro assumiu essa posição."
+    "id": 12,
+    "text": "Qual era o nome do principal mercado de escravos no Rio de Janeiro?",
+    "options": [
+      "Valongo",
+      "Pelourinho",
+      "Mercado Grande",
+      "Praça XV"
+    ],
+    "answer": "Valongo",
+    "justification": "O Cais do Valongo, no Rio de Janeiro, foi o principal local de desembarque e comércio de escravos nas Américas, sendo hoje um sítio arqueológico reconhecido pela UNESCO."
   },
   {
-      "id": 6,
-      "text": "Quem pintou o quadro 'Independência ou Morte'?",
-      "options": [
-          "Pedro Américo",
-          "Victor Meirelles",
-          "Tarsila do Amaral",
-          "Di Cavalcanti"
-      ],
-      "answer": "Pedro Américo",
-      "justification": "Pedro Américo, um dos mais importantes pintores do Brasil imperial, foi o autor do quadro 'Independência ou Morte', concluído em 1888 e que retrata o momento da proclamação da independência."
+    "id": 13,
+    "text": "Qual foi a última nação das Américas a abolir a escravidão?",
+    "options": [
+      "Brasil",
+      "Cuba",
+      "Estados Unidos",
+      "Jamaica"
+    ],
+    "answer": "Brasil",
+    "justification": "O Brasil foi o último país das Américas a abolir a escravidão, o que ocorreu apenas em 1888 com a assinatura da Lei Áurea."
   },
   {
-      "id": 7,
-      "text": "Em que ano foi proclamada a República no Brasil?",
-      "options": [
-          "1889",
-          "1888",
-          "1890",
-          "1891"
-      ],
-      "answer": "1889",
-      "justification": "A República foi proclamada em 15 de novembro de 1889, por Marechal Deodoro da Fonseca, encerrando o período monárquico no Brasil."
+    "id": 14,
+    "text": "O que foi a 'Lei dos Sexagenários' de 1885?",
+    "options": [
+      "Lei que libertava escravos com mais de 60 anos",
+      "Lei que proibia o trabalho de idosos",
+      "Lei que regulamentava o trabalho escravo",
+      "Lei que protegia escravos idosos"
+    ],
+    "answer": "Lei que libertava escravos com mais de 60 anos",
+    "justification": "A Lei dos Sexagenários, ou Lei Saraiva-Cotegipe, concedia liberdade aos escravos com mais de 60 anos de idade, embora na prática poucos escravos chegassem a essa idade."
+  },
+  {
+    "id": 15,
+    "text": "Qual era o principal produto de exportação do Brasil que utilizava mão de obra escrava no século XIX?",
+    "options": [
+      "Café",
+      "Açúcar",
+      "Algodão",
+      "Tabaco"
+    ],
+    "answer": "Café",
+    "justification": "O café era o principal produto de exportação do Brasil no século XIX, e sua produção dependia fortemente do trabalho escravo, especialmente no Vale do Paraíba."
+  },
+  {
+    "id": 16,
+    "text": "O que eram os quilombos?",
+    "options": [
+      "Comunidades formadas por escravos fugidos",
+      "Mercados de escravos",
+      "Fazendas de café",
+      "Portos de desembarque"
+    ],
+    "answer": "Comunidades formadas por escravos fugidos",
+    "justification": "Os quilombos eram comunidades organizadas por escravos fugidos que se estabeleciam em locais de difícil acesso, sendo o Quilombo dos Palmares o mais famoso deles."
+  },
+  {
+    "id": 17,
+    "text": "Qual foi o principal líder do Quilombo dos Palmares?",
+    "options": [
+      "Zumbi",
+      "Ganga Zumba",
+      "João Cândido",
+      "Luís Gama"
+    ],
+    "answer": "Zumbi",
+    "justification": "Zumbi dos Palmares foi o principal líder do Quilombo dos Palmares, o maior quilombo da história do Brasil, e é considerado um símbolo da resistência negra à escravidão."
+  },
+  {
+    "id": 18,
+    "text": "Qual era a principal região africana de origem dos escravos trazidos para o Brasil?",
+    "options": [
+      "África Centro-Ocidental",
+      "África Oriental",
+      "África do Norte",
+      "África do Sul"
+    ],
+    "answer": "África Centro-Ocidental",
+    "justification": "A maioria dos escravos trazidos para o Brasil era originária da África Centro-Ocidental, principalmente das regiões que hoje correspondem a Angola e Congo."
+  },
+  {
+    "id": 19,
+    "text": "O que foi o 'Ciclo do Mina'?",
+    "options": [
+      "Período de intenso tráfico de escravos da Costa da Mina",
+      "Ciclo do ouro em Minas Gerais",
+      "Rota de fuga de escravos",
+      "Sistema de mineração colonial"
+    ],
+    "answer": "Período de intenso tráfico de escravos da Costa da Mina",
+    "justification": "O Ciclo do Mina foi um período de intenso tráfico de escravos da região da Costa da Mina (atual Gana) para o Brasil, principalmente durante o ciclo do ouro."
+  },
+  {
+    "id": 20,
+    "text": "Qual foi o impacto da Lei Bill Aberdeen (1845) no tráfico de escravos?",
+    "options": [
+      "Permitiu que navios britânicos apreendessem navios negreiros brasileiros",
+      "Aumentou o tráfico de escravos",
+      "Regulamentou o comércio de escravos",
+      "Não teve impacto significativo"
+    ],
+    "answer": "Permitiu que navios britânicos apreendessem navios negreiros brasileiros",
+    "justification": "A Lei Bill Aberdeen, aprovada pelo parlamento britânico em 1845, autorizava a marinha britânica a apreender navios negreiros brasileiros, considerando o tráfico como pirataria."
+  },
+  {
+    "id": 21,
+    "text": "Em que século teve início o ciclo da cana-de-açúcar no Brasil?",
+    "options": [
+      "Século XVI",
+      "Século XVII",
+      "Século XV",
+      "Século XVIII"
+    ],
+    "answer": "Século XVI",
+    "justification": "O ciclo do açúcar iniciou-se no século XVI, mais precisamente na década de 1530, com as primeiras mudas trazidas por Martim Afonso de Sousa."
+  },
+  {
+    "id": 22,
+    "text": "Qual capitania hereditária se tornou o principal centro produtor de açúcar no período colonial?",
+    "options": [
+      "Pernambuco",
+      "São Vicente",
+      "Bahia",
+      "Rio de Janeiro"
+    ],
+    "answer": "Pernambuco",
+    "justification": "Pernambuco se destacou como o principal centro produtor de açúcar no período colonial, sendo conhecida como a 'Nova Lusitânia' devido à sua prosperidade."
+  },
+  {
+    "id": 23,
+    "text": "Como era chamada a propriedade onde se cultivava cana e produzia açúcar no Brasil colonial?",
+    "options": [
+      "Engenho",
+      "Fazenda",
+      "Plantação",
+      "Sítio"
+    ],
+    "answer": "Engenho",
+    "justification": "O engenho era a unidade produtiva completa que incluía as plantações de cana, a casa-grande, a senzala e as instalações de processamento do açúcar."
+  },
+  {
+    "id": 24,
+    "text": "Qual era o principal mercado consumidor do açúcar brasileiro no período colonial?",
+    "options": [
+      "Europa",
+      "África",
+      "América do Norte",
+      "Ásia"
+    ],
+    "answer": "Europa",
+    "justification": "A Europa era o principal mercado consumidor, especialmente países como Holanda, Inglaterra e França, onde o açúcar era considerado um produto de luxo."
+  },
+  {
+    "id": 25,
+    "text": "Qual foi o principal porto europeu de redistribuição do açúcar brasileiro?",
+    "options": [
+      "Lisboa",
+      "Amsterdã",
+      "Londres",
+      "Paris"
+    ],
+    "answer": "Lisboa",
+    "justification": "Lisboa era o principal porto de redistribuição do açúcar brasileiro para outros países europeus, devido ao pacto colonial com Portugal."
+  },
+  {
+    "id": 26,
+    "text": "O que era a 'Casa de Purgar' nos engenhos coloniais?",
+    "options": [
+      "Local onde o açúcar era branqueado e secado",
+      "Local de moradia dos escravos",
+      "Depósito de ferramentas",
+      "Área de moagem da cana"
+    ],
+    "answer": "Local onde o açúcar era branqueado e secado",
+    "justification": "A Casa de Purgar era onde o açúcar passava pelo processo de branqueamento e secagem, etapa final da produção."
+  },
+  {
+    "id": 27,
+    "text": "Qual evento contribuiu significativamente para a decadência do ciclo do açúcar brasileiro?",
+    "options": [
+      "A concorrência das Antilhas",
+      "A descoberta do ouro",
+      "A independência do Brasil",
+      "A chegada da família real"
+    ],
+    "answer": "A concorrência das Antilhas",
+    "justification": "A produção açucareira nas Antilhas, desenvolvida pelos holandeses após sua expulsão do Nordeste, criou forte concorrência ao açúcar brasileiro."
+  },
+  {
+    "id": 28,
+    "text": "Qual era o sistema de trabalho predominante nos engenhos de açúcar?",
+    "options": [
+      "Escravidão",
+      "Trabalho assalariado",
+      "Servidão",
+      "Parceria"
+    ],
+    "answer": "Escravidão",
+    "justification": "A escravidão, principalmente de africanos, foi a base do trabalho nos engenhos, sendo fundamental para a economia açucareira."
+  },
+  {
+    "id": 29,
+    "text": "O que era o 'bangüê' no engenho colonial?",
+    "options": [
+      "Engenho movido por tração animal",
+      "Tipo de açúcar",
+      "Ferramenta de corte",
+      "Moradia dos trabalhadores"
+    ],
+    "answer": "Engenho movido por tração animal",
+    "justification": "O bangüê era um tipo de engenho mais simples, movido por tração animal, muito comum no período colonial."
+  },
+  {
+    "id": 30,
+    "text": "Qual era a principal fonte de energia utilizada nos engenhos?",
+    "options": [
+      "Força hidráulica",
+      "Força animal",
+      "Força eólica",
+      "Força humana"
+    ],
+    "answer": "Força hidráulica",
+    "justification": "Os principais engenhos utilizavam a força da água (engenhos reais) como fonte de energia para mover as moendas."
+  },
+  {
+    "id": 31,
+    "text": "O que era a 'Casa-Grande' no complexo do engenho?",
+    "options": [
+      "Residência do senhor de engenho",
+      "Local de produção do açúcar",
+      "Armazém",
+      "Capela"
+    ],
+    "answer": "Residência do senhor de engenho",
+    "justification": "A Casa-Grande era a residência da família do senhor de engenho e símbolo de seu poder econômico e social."
+  },
+  {
+    "id": 32,
+    "text": "Qual produto derivado da cana era muito utilizado como combustível nos engenhos?",
+    "options": [
+      "Bagaço",
+      "Melaço",
+      "Caldo",
+      "Rapadura"
+    ],
+    "answer": "Bagaço",
+    "justification": "O bagaço da cana, após a moagem, era utilizado como combustível nas fornalhas dos engenhos."
+  },
+  {
+    "id": 33,
+    "text": "O que era o 'senhor de engenho' na sociedade colonial?",
+    "options": [
+      "Principal figura da aristocracia rural",
+      "Funcionário da Coroa",
+      "Comerciante de açúcar",
+      "Artesão especializado"
+    ],
+    "answer": "Principal figura da aristocracia rural",
+    "justification": "O senhor de engenho era o topo da hierarquia social colonial, representando a aristocracia rural açucareira."
+  },
+  {
+    "id": 34,
+    "text": "Qual era o papel dos jesuítas nos engenhos de açúcar?",
+    "options": [
+      "Assistência religiosa e educação",
+      "Produção de açúcar",
+      "Comércio internacional",
+      "Administração colonial"
+    ],
+    "answer": "Assistência religiosa e educação",
+    "justification": "Os jesuítas prestavam assistência religiosa aos habitantes do engenho e eram responsáveis pela educação dos filhos dos senhores de engenho."
+  },
+  {
+    "id": 35,
+    "text": "O que era o 'mascavo'?",
+    "options": [
+      "Açúcar não refinado",
+      "Ferramenta de corte",
+      "Tipo de engenho",
+      "Técnica de plantio"
+    ],
+    "answer": "Açúcar não refinado",
+    "justification": "O açúcar mascavo era o produto não refinado, de cor escura, resultado do primeiro processo de cristalização do caldo de cana."
+  },
+  {
+    "id": 36,
+    "text": "Qual foi o impacto da invasão holandesa no Nordeste para a produção açucareira?",
+    "options": [
+      "Modernização da produção",
+      "Declínio da produção",
+      "Fim do ciclo do açúcar",
+      "Aumento dos preços"
+    ],
+    "answer": "Modernização da produção",
+    "justification": "Os holandeses modernizaram a produção açucareira durante sua ocupação, introduzindo novas técnicas e melhorias na administração."
+  },
+  {
+    "id": 37,
+    "text": "O que era o 'partido de cana'?",
+    "options": [
+      "Área de cultivo de cana",
+      "Grupo político",
+      "Técnica de plantio",
+      "Festa da colheita"
+    ],
+    "answer": "Área de cultivo de cana",
+    "justification": "O partido de cana era a área destinada ao cultivo da cana-de-açúcar dentro das terras do engenho."
+  },
+  {
+    "id": 38,
+    "text": "Qual era a função do 'mestre de açúcar' no engenho?",
+    "options": [
+      "Supervisionar o processo de fabricação do açúcar",
+      "Administrar os escravos",
+      "Comercializar a produção",
+      "Cultivar a cana"
+    ],
+    "answer": "Supervisionar o processo de fabricação do açúcar",
+    "justification": "O mestre de açúcar era o especialista responsável por supervisionar todo o processo de fabricação do açúcar, sendo um cargo de grande prestígio."
+  },
+  {
+    "id": 39,
+    "text": "Qual era o principal subproduto da cana-de-açúcar utilizado na produção de bebidas alcoólicas?",
+    "options": [
+      "Melaço",
+      "Bagaço",
+      "Caldo",
+      "Garapa"
+    ],
+    "answer": "Melaço",
+    "justification": "O melaço era utilizado na produção de cachaça e outros destilados, sendo um importante subproduto da produção açucareira."
+  },
+  {
+    "id": 40,
+    "text": "Como era chamado o trabalhador livre especializado que operava a moenda do engenho?",
+    "options": [
+      "Feitor",
+      "Caixeiro",
+      "Moendeiro",
+      "Purgador"
+    ],
+    "answer": "Moendeiro",
+    "justification": "O moendeiro era o trabalhador especializado responsável pela operação da moenda, peça fundamental no processo de produção do açúcar."
+  },
+  {
+    "id": 41,
+    "text": "O que foi o 'Pacto Colonial'?",
+    "options": [
+      "Sistema que garantia exclusividade comercial à metrópole",
+      "Acordo entre colônias portuguesas",
+      "Tratado de paz com os indígenas",
+      "Sistema de distribuição de terras"
+    ],
+    "answer": "Sistema que garantia exclusividade comercial à metrópole",
+    "justification": "O Pacto Colonial era um conjunto de normas que garantia à Portugal o monopólio comercial com o Brasil, proibindo o comércio direto com outras nações."
+  },
+  {
+    "id": 42,
+    "text": "Qual foi o primeiro produto de exportação do Brasil colonial?",
+    "options": [
+      "Pau-brasil",
+      "Açúcar",
+      "Ouro",
+      "Algodão"
+    ],
+    "answer": "Pau-brasil",
+    "justification": "O pau-brasil foi o primeiro produto de exportação da colônia, sendo explorado através do sistema de feitorias no início do século XVI."
+  },
+  {
+    "id": 43,
+    "text": "O que eram as 'drogas do sertão'?",
+    "options": [
+      "Produtos nativos da Amazônia",
+      "Medicamentos importados",
+      "Especiarias asiáticas",
+      "Plantas medicinais africanas"
+    ],
+    "answer": "Produtos nativos da Amazônia",
+    "justification": "As drogas do sertão eram produtos nativos da Amazônia como cacau, baunilha, canela, urucum e guaraná, muito valorizados na Europa."
+  },
+  {
+    "id": 44,
+    "text": "Qual era a principal função das Casas de Fundição no período colonial?",
+    "options": [
+      "Transformar ouro em barras e cobrar impostos",
+      "Fabricar moedas",
+      "Armazenar metais preciosos",
+      "Comercializar ouro"
+    ],
+    "answer": "Transformar ouro em barras e cobrar impostos",
+    "justification": "As Casas de Fundição transformavam o ouro em pó em barras e cobravam o quinto (20%) para a Coroa Portuguesa."
+  },
+  {
+    "id": 45,
+    "text": "O que era a 'derrama' no período colonial?",
+    "options": [
+      "Cobrança forçada de impostos atrasados",
+      "Distribuição de riquezas",
+      "Sistema de irrigação",
+      "Técnica de mineração"
+    ],
+    "answer": "Cobrança forçada de impostos atrasados",
+    "justification": "A derrama era a cobrança forçada dos impostos atrasados sobre o ouro, especialmente o quinto, que gerou grande insatisfação popular."
+  },
+  {
+    "id": 46,
+    "text": "Qual foi o principal polo econômico do Brasil no século XVIII?",
+    "options": [
+      "Minas Gerais",
+      "Bahia",
+      "Pernambuco",
+      "São Paulo"
+    ],
+    "answer": "Minas Gerais",
+    "justification": "Minas Gerais tornou-se o principal centro econômico da colônia durante o ciclo do ouro no século XVIII."
+  },
+  {
+    "id": 47,
+    "text": "O que era o 'quinto'?",
+    "options": [
+      "Imposto de 20% sobre o ouro",
+      "Quinta parte das terras coloniais",
+      "Sistema de divisão de lucros",
+      "Tributo sobre o açúcar"
+    ],
+    "answer": "Imposto de 20% sobre o ouro",
+    "justification": "O quinto era um imposto que correspondia a 20% de todo o ouro extraído na colônia, que deveria ser pago à Coroa Portuguesa."
+  },
+  {
+    "id": 48,
+    "text": "Qual era a principal atividade econômica do Sul do Brasil no período colonial?",
+    "options": [
+      "Pecuária",
+      "Mineração",
+      "Agricultura de cana",
+      "Extração de madeira"
+    ],
+    "answer": "Pecuária",
+    "justification": "A pecuária era a principal atividade econômica do Sul, com destaque para a criação de gado e mulas nas estâncias."
+  },
+  {
+    "id": 49,
+    "text": "O que foram as 'Entradas e Bandeiras'?",
+    "options": [
+      "Expedições de exploração do território",
+      "Portos comerciais",
+      "Impostos coloniais",
+      "Rotas comerciais"
+    ],
+    "answer": "Expedições de exploração do território",
+    "justification": "Entradas e Bandeiras eram expedições que adentravam o território em busca de riquezas minerais e indígenas para escravização."
+  },
+  {
+    "id": 50,
+    "text": "Qual era a função das Companhias de Comércio no período colonial?",
+    "options": [
+      "Monopolizar e controlar o comércio regional",
+      "Explorar o ouro",
+      "Administrar as capitanias",
+      "Defender o litoral"
+    ],
+    "answer": "Monopolizar e controlar o comércio regional",
+    "justification": "As Companhias de Comércio eram empresas que detinham o monopólio do comércio em determinadas regiões da colônia."
+  },
+  {
+    "id": 51,
+    "text": "O que era o 'Caminho do Ouro'?",
+    "options": [
+      "Rota que ligava as minas ao litoral",
+      "Técnica de mineração",
+      "Local de fundição",
+      "Estrada para o comércio de escravos"
+    ],
+    "answer": "Rota que ligava as minas ao litoral",
+    "justification": "O Caminho do Ouro era a rota que ligava as regiões mineradoras aos portos do litoral, principalmente ao Rio de Janeiro."
+  },
+  {
+    "id": 52,
+    "text": "Qual foi o impacto do Tratado de Methuen (1703) na economia colonial?",
+    "options": [
+      "Favoreceu a importação de produtos ingleses",
+      "Aumentou a produção de açúcar",
+      "Desenvolveu a indústria local",
+      "Reduziu o comércio com Portugal"
+    ],
+    "answer": "Favoreceu a importação de produtos ingleses",
+    "justification": "O Tratado de Methuen privilegiou a importação de produtos manufaturados ingleses em troca da preferência pelos vinhos portugueses."
+  },
+  {
+    "id": 53,
+    "text": "O que era o 'escambo' no início da colonização?",
+    "options": [
+      "Troca de produtos com os indígenas",
+      "Sistema monetário",
+      "Imposto colonial",
+      "Técnica de agricultura"
+    ],
+    "answer": "Troca de produtos com os indígenas",
+    "justification": "O escambo era o sistema de trocas diretas entre portugueses e indígenas, principalmente pau-brasil por objetos europeus."
+  },
+  {
+    "id": 54,
+    "text": "Qual era a principal função dos tropeiros na economia colonial?",
+    "options": [
+      "Transporte e comércio entre regiões",
+      "Extração de ouro",
+      "Produção agrícola",
+      "Defesa territorial"
+    ],
+    "answer": "Transporte e comércio entre regiões",
+    "justification": "Os tropeiros eram responsáveis pelo transporte de mercadorias e comércio entre diferentes regiões da colônia."
+  },
+  {
+    "id": 55,
+    "text": "O que era o 'Regimento das Minas'?",
+    "options": [
+      "Conjunto de leis para controle da mineração",
+      "Manual de técnicas mineradoras",
+      "Lista de impostos",
+      "Registro de mineradores"
+    ],
+    "answer": "Conjunto de leis para controle da mineração",
+    "justification": "O Regimento das Minas era um conjunto de normas que regulamentava a exploração mineral e a cobrança de impostos nas regiões mineradoras."
+  },
+  {
+    "id": 56,
+    "text": "Qual foi a importância dos currais de gado para a economia colonial?",
+    "options": [
+      "Integração econômica do interior",
+      "Exportação de carne",
+      "Produção de laticínios",
+      "Transporte de mercadorias"
+    ],
+    "answer": "Integração econômica do interior",
+    "justification": "Os currais de gado foram fundamentais para a ocupação e integração econômica do interior do Brasil, fornecendo alimento e força de tração."
+  },
+  {
+    "id": 57,
+    "text": "O que era a 'Casa da Moeda' no período colonial?",
+    "options": [
+      "Instituição responsável pela cunhagem de moedas",
+      "Banco colonial",
+      "Casa de câmbio",
+      "Tesouro real"
+    ],
+    "answer": "Instituição responsável pela cunhagem de moedas",
+    "justification": "A Casa da Moeda era responsável pela cunhagem oficial de moedas na colônia, sendo a primeira estabelecida na Bahia em 1694."
+  },
+  {
+    "id": 58,
+    "text": "Qual era o papel dos mascates na economia colonial?",
+    "options": [
+      "Comerciantes ambulantes",
+      "Produtores rurais",
+      "Funcionários da Coroa",
+      "Artesãos"
+    ],
+    "answer": "Comerciantes ambulantes",
+    "justification": "Os mascates eram comerciantes ambulantes que vendiam diversos produtos, sendo importantes para o comércio interno da colônia."
+  },
+  {
+    "id": 59,
+    "text": "O que foi a 'Guerra dos Mascates'?",
+    "options": [
+      "Conflito entre comerciantes e senhores de engenho",
+      "Revolta contra impostos",
+      "Guerra comercial",
+      "Disputa por terras"
+    ],
+    "answer": "Conflito entre comerciantes e senhores de engenho",
+    "justification": "A Guerra dos Mascates (1710-1711) foi um conflito em Pernambuco entre comerciantes portugueses de Recife e senhores de engenho de Olinda."
+  },
+  {
+    "id": 60,
+    "text": "Qual era o principal meio de transporte de mercadorias no período colonial?",
+    "options": [
+      "Mulas e cavalos",
+      "Carroças",
+      "Navios",
+      "Canoas"
+    ],
+    "answer": "Mulas e cavalos",
+    "justification": "As mulas e cavalos eram os principais meios de transporte terrestre de mercadorias no período colonial, especialmente nas regiões mineradoras."
+  },
+  {
+    "id": 61,
+    "text": "Qual foi a primeira escola naval criada pelos portugueses para formar navegadores?",
+    "options": [
+      "Escola de Sagres",
+      "Universidade de Coimbra",
+      "Academia Naval de Lisboa",
+      "Instituto do Infante"
+    ],
+    "answer": "Escola de Sagres",
+    "justification": "A Escola de Sagres, criada pelo Infante Dom Henrique, foi fundamental para o desenvolvimento das técnicas de navegação portuguesas."
+  },
+  {
+    "id": 62,
+    "text": "Qual era o principal objetivo do mercantilismo?",
+    "options": [
+      "Acúmulo de metais preciosos",
+      "Livre comércio",
+      "Desenvolvimento industrial",
+      "Autonomia colonial"
+    ],
+    "answer": "Acúmulo de metais preciosos",
+    "justification": "O mercantilismo visava o acúmulo de metais preciosos (ouro e prata) como forma de medir e garantir a riqueza nacional."
+  },
+  {
+    "id": 63,
+    "text": "Qual inovação tecnológica foi fundamental para as grandes navegações?",
+    "options": [
+      "Caravela",
+      "Nau",
+      "Galeão",
+      "Bergantim"
+    ],
+    "answer": "Caravela",
+    "justification": "A caravela, com seu casco mais leve e velas triangulares, permitia navegar contra o vento e foi essencial para as explorações marítimas."
+  },
+  {
+    "id": 64,
+    "text": "O que foi o Tratado de Tordesilhas?",
+    "options": [
+      "Acordo que dividiu o mundo entre Portugal e Espanha",
+      "Tratado comercial com a Inglaterra",
+      "Acordo de paz com os mouros",
+      "Divisão do comércio de especiarias"
+    ],
+    "answer": "Acordo que dividiu o mundo entre Portugal e Espanha",
+    "justification": "O Tratado de Tordesilhas (1494) dividiu as terras descobertas e por descobrir entre Portugal e Espanha, através de um meridiano."
+  },
+  {
+    "id": 65,
+    "text": "Qual era a principal característica da balança comercial mercantilista?",
+    "options": [
+      "Superávit nas exportações",
+      "Equilíbrio comercial",
+      "Déficit controlado",
+      "Livre comércio"
+    ],
+    "answer": "Superávit nas exportações",
+    "justification": "O mercantilismo buscava manter uma balança comercial favorável, com exportações superiores às importações para acumular riquezas."
+  },
+  {
+    "id": 66,
+    "text": "Qual instrumento de navegação permitia medir a altura dos astros?",
+    "options": [
+      "Astrolábio",
+      "Bússola",
+      "Quadrante",
+      "Portulano"
+    ],
+    "answer": "Astrolábio",
+    "justification": "O astrolábio permitia determinar a latitude através da medição da altura dos astros, especialmente o Sol e a Estrela Polar."
+  },
+  {
+    "id": 67,
+    "text": "O que era o 'Mare Clausum'?",
+    "options": [
+      "Política de controle dos mares",
+      "Rota comercial",
+      "Área de pesca",
+      "Região inexplorada"
+    ],
+    "answer": "Política de controle dos mares",
+    "justification": "Mare Clausum era a doutrina que defendia o controle dos mares por determinadas nações, opondo-se ao conceito de Mare Liberum."
+  },
+  {
+    "id": 68,
+    "text": "Qual foi a principal rota comercial estabelecida pelos portugueses no século XV?",
+    "options": [
+      "Rota do Cabo",
+      "Rota das Índias",
+      "Rota do Pacífico",
+      "Rota das Antilhas"
+    ],
+    "answer": "Rota do Cabo",
+    "justification": "A Rota do Cabo, contornando a África, foi estabelecida por Vasco da Gama e permitiu o acesso direto às especiarias da Índia."
+  },
+  {
+    "id": 69,
+    "text": "O que era o 'exclusivo metropolitano'?",
+    "options": [
+      "Monopólio comercial da metrópole",
+      "Imposto colonial",
+      "Sistema de navegação",
+      "Acordo internacional"
+    ],
+    "answer": "Monopólio comercial da metrópole",
+    "justification": "O exclusivo metropolitano garantia à metrópole o monopólio do comércio com suas colônias, princípio básico do mercantilismo."
+  },
+  {
+    "id": 70,
+    "text": "Qual foi o papel das especiarias na expansão marítima?",
+    "options": [
+      "Principal motivação comercial",
+      "Uso medicinal apenas",
+      "Moeda de troca",
+      "Produto secundário"
+    ],
+    "answer": "Principal motivação comercial",
+    "justification": "A busca por especiarias foi uma das principais motivações da expansão marítima, devido ao seu alto valor comercial na Europa."
+  },
+  {
+    "id": 71,
+    "text": "O que eram as Companhias de Comércio no sistema mercantilista?",
+    "options": [
+      "Empresas monopolistas estatais",
+      "Cooperativas comerciais",
+      "Associações de mercadores",
+      "Bancos coloniais"
+    ],
+    "answer": "Empresas monopolistas estatais",
+    "justification": "As Companhias de Comércio eram empresas estatais que detinham o monopólio do comércio em determinadas regiões ou produtos."
+  },
+  {
+    "id": 72,
+    "text": "Qual foi a importância da cidade de Ceuta para a expansão portuguesa?",
+    "options": [
+      "Ponto inicial da expansão africana",
+      "Centro comercial",
+      "Base naval",
+      "Colônia agrícola"
+    ],
+    "answer": "Ponto inicial da expansão africana",
+    "justification": "A conquista de Ceuta em 1415 marcou o início da expansão portuguesa na África e das grandes navegações."
+  },
+  {
+    "id": 73,
+    "text": "O que era o 'metalismo' no mercantilismo?",
+    "options": [
+      "Busca por metais preciosos",
+      "Técnica de mineração",
+      "Sistema monetário",
+      "Comércio de metais"
+    ],
+    "answer": "Busca por metais preciosos",
+    "justification": "O metalismo era a crença de que a riqueza de uma nação se media pela quantidade de metais preciosos acumulados."
+  },
+  {
+    "id": 74,
+    "text": "Qual foi o papel da Igreja na expansão marítima?",
+    "options": [
+      "Legitimação religiosa das conquistas",
+      "Financiamento das expedições",
+      "Oposição às navegações",
+      "Administração colonial"
+    ],
+    "answer": "Legitimação religiosa das conquistas",
+    "justification": "A Igreja legitimava as conquistas através da justificativa de evangelização dos povos e emitia bulas papais reconhecendo direitos de conquista."
+  },
+  {
+    "id": 75,
+    "text": "O que eram as feitorias?",
+    "options": [
+      "Entrepostos comerciais fortificados",
+      "Fábricas coloniais",
+      "Centros administrativos",
+      "Portos principais"
+    ],
+    "answer": "Entrepostos comerciais fortificados",
+    "justification": "As feitorias eram estabelecimentos comerciais fortificados que serviam como pontos de apoio e comércio ao longo das rotas marítimas."
+  },
+  {
+    "id": 76,
+    "text": "Qual era a função do 'capitão-donatário' no sistema colonial português?",
+    "options": [
+      "Administrador de capitania hereditária",
+      "Comandante naval",
+      "Comerciante principal",
+      "Chefe militar"
+    ],
+    "answer": "Administrador de capitania hereditária",
+    "justification": "O capitão-donatário era o administrador de uma capitania hereditária, com poderes administrativos e econômicos delegados pela Coroa."
+  },
+  {
+    "id": 77,
+    "text": "O que foi a 'Carreira da Índia'?",
+    "options": [
+      "Rota marítima Lisboa-Índia",
+      "Companhia comercial",
+      "Sistema de navegação",
+      "Expedição militar"
+    ],
+    "answer": "Rota marítima Lisboa-Índia",
+    "justification": "A Carreira da Índia era a rota marítima que ligava Lisboa a Goa, fundamental para o comércio português de especiarias."
+  },
+  {
+    "id": 78,
+    "text": "Qual foi o impacto do protecionismo mercantilista?",
+    "options": [
+      "Fortalecimento do poder estatal",
+      "Desenvolvimento colonial",
+      "Livre concorrência",
+      "Integração econômica"
+    ],
+    "answer": "Fortalecimento do poder estatal",
+    "justification": "O protecionismo mercantilista fortaleceu o poder do Estado através do controle do comércio e da economia."
+  },
+  {
+    "id": 79,
+    "text": "O que era o 'Conselho das Índias'?",
+    "options": [
+      "Órgão administrativo colonial espanhol",
+      "Companhia comercial",
+      "Tribunal marítimo",
+      "Assembleia de comerciantes"
+    ],
+    "answer": "Órgão administrativo colonial espanhol",
+    "justification": "O Conselho das Índias era o órgão responsável pela administração das colônias espanholas na América."
+  },
+  {
+    "id": 80,
+    "text": "Qual foi a importância das ilhas atlânticas para a expansão portuguesa?",
+    "options": [
+      "Pontos de apoio para navegação",
+      "Centros comerciais",
+      "Bases militares",
+      "Colônias agrícolas"
+    ],
+    "answer": "Pontos de apoio para navegação",
+    "justification": "As ilhas atlânticas (Açores, Madeira, Cabo Verde) serviam como pontos de apoio fundamentais para as navegações portuguesas."
+  },
+  {
+    "id": 81,
+    "text": "O que foi a Confederação dos Tamoios?",
+    "options": [
+      "Aliança de tribos indígenas contra os portugueses",
+      "Acordo de paz com os colonizadores",
+      "Sistema de catequização",
+      "Rota de comércio indígena"
+    ],
+    "answer": "Aliança de tribos indígenas contra os portugueses",
+    "justification": "A Confederação dos Tamoios (1556-1567) foi uma aliança entre tribos tupinambás contra a escravização e ocupação portuguesa no litoral de São Paulo e Rio de Janeiro."
+  },
+  {
+    "id": 82,
+    "text": "Qual foi o papel das 'guerras justas' na colonização portuguesa?",
+    "options": [
+      "Justificar a escravização dos indígenas",
+      "Defender o território colonial",
+      "Estabelecer acordos de paz",
+      "Organizar missões religiosas"
+    ],
+    "answer": "Justificar a escravização dos indígenas",
+    "justification": "As 'guerras justas' eram um instrumento legal usado pelos portugueses para justificar o combate e a escravização dos povos indígenas considerados 'hostis'."
+  },
+  {
+    "id": 83,
+    "text": "O que foram os aldeamentos jesuíticos?",
+    "options": [
+      "Núcleos de catequização e controle indígena",
+      "Vilas portuguesas",
+      "Centros comerciais",
+      "Fortes militares"
+    ],
+    "answer": "Núcleos de catequização e controle indígena",
+    "justification": "Os aldeamentos eram estabelecimentos criados pelos jesuítas para concentrar, catequizar e 'civilizar' os indígenas, servindo também como reserva de mão de obra."
+  },
+  {
+    "id": 84,
+    "text": "Quem foi Araribóia?",
+    "options": [
+      "Líder indígena aliado dos portugueses",
+      "Chefe da Confederação dos Tamoios",
+      "Padre jesuíta",
+      "Bandeirante paulista"
+    ],
+    "answer": "Líder indígena aliado dos portugueses",
+    "justification": "Araribóia foi um importante líder temiminó que auxiliou os portugueses na expulsão dos franceses do Rio de Janeiro, sendo recompensado com terras e títulos."
+  },
+  {
+    "id": 85,
+    "text": "O que foi a 'Guerra dos Bárbaros'?",
+    "options": [
+      "Conflitos entre colonizadores e indígenas no sertão nordestino",
+      "Batalha contra invasores estrangeiros",
+      "Revolta de escravos",
+      "Guerra entre tribos rivais"
+    ],
+    "answer": "Conflitos entre colonizadores e indígenas no sertão nordestino",
+    "justification": "A Guerra dos Bárbaros (1650-1720) foi uma série de conflitos entre colonizadores e povos indígenas do sertão nordestino durante a expansão da pecuária."
+  },
+  {
+    "id": 86,
+    "text": "Qual era o objetivo do Diretório dos Índios (1757)?",
+    "options": [
+      "Integrar os indígenas à sociedade colonial",
+      "Proteger as terras indígenas",
+      "Fortalecer as missões jesuíticas",
+      "Proibir a escravidão indígena"
+    ],
+    "answer": "Integrar os indígenas à sociedade colonial",
+    "justification": "O Diretório dos Índios, criado pelo Marquês de Pombal, visava integrar os indígenas à sociedade colonial através da imposição da língua portuguesa e costumes europeus."
+  },
+  {
+    "id": 87,
+    "text": "Como era a organização social dos Tupis-Guaranis?",
+    "options": [
+      "Baseada em aldeias e confederações tribais",
+      "Sistema monárquico",
+      "Sociedade urbana",
+      "Organização feudal"
+    ],
+    "answer": "Baseada em aldeias e confederações tribais",
+    "justification": "Os Tupis-Guaranis organizavam-se em aldeias (tabas) compostas por várias malocas, podendo formar confederações em momentos de guerra."
+  },
+  {
+    "id": 88,
+    "text": "O que foi o 'descimento' de índios?",
+    "options": [
+      "Transferência forçada de indígenas para aldeamentos",
+      "Ritual religioso",
+      "Técnica de navegação",
+      "Sistema de trabalho"
+    ],
+    "answer": "Transferência forçada de indígenas para aldeamentos",
+    "justification": "O descimento era a prática de transferir forçadamente grupos indígenas do interior para aldeamentos no litoral, visando seu controle e utilização como mão de obra."
+  },
+  {
+    "id": 89,
+    "text": "Qual foi o impacto da Lei de 1611 sobre os indígenas?",
+    "options": [
+      "Regulamentou a escravização em guerras justas",
+      "Proibiu totalmente a escravidão",
+      "Criou reservas indígenas",
+      "Estabeleceu direitos territoriais"
+    ],
+    "answer": "Regulamentou a escravização em guerras justas",
+    "justification": "A Lei de 1611 estabeleceu condições para a escravização legal de indígenas, principalmente através das guerras justas e do resgate."
+  },
+  {
+    "id": 90,
+    "text": "O que era o 'cunhadismo'?",
+    "options": [
+      "Prática de alianças através de casamentos",
+      "Sistema de trabalho",
+      "Ritual religioso",
+      "Técnica de guerra"
+    ],
+    "answer": "Prática de alianças através de casamentos",
+    "justification": "O cunhadismo era uma prática indígena de estabelecer alianças através do casamento de mulheres da tribo com portugueses, que se tornavam 'cunhados' do grupo."
+  },
+  {
+    "id": 91,
+    "text": "Qual foi o papel dos línguas na colonização?",
+    "options": [
+      "Intérpretes entre portugueses e indígenas",
+      "Guerreiros indígenas",
+      "Líderes religiosos",
+      "Comerciantes"
+    ],
+    "answer": "Intérpretes entre portugueses e indígenas",
+    "justification": "Os línguas eram intérpretes que facilitavam a comunicação entre portugueses e indígenas, sendo fundamentais para o processo de colonização."
+  },
+  {
+    "id": 92,
+    "text": "O que foi a 'Guerra dos Potiguaras'?",
+    "options": [
+      "Resistência indígena no nordeste contra portugueses",
+      "Conflito entre tribos rivais",
+      "Revolta contra jesuítas",
+      "Guerra contra invasores franceses"
+    ],
+    "answer": "Resistência indígena no nordeste contra portugueses",
+    "justification": "A Guerra dos Potiguaras foi um longo conflito (1574-1599) entre os índios potiguares e os portugueses pelo controle do território no nordeste brasileiro."
+  },
+  {
+    "id": 93,
+    "text": "Como funcionava o sistema de 'resgate' de índios?",
+    "options": [
+      "Compra de prisioneiros de guerra indígenas",
+      "Libertação de escravos",
+      "Troca de mercadorias",
+      "Sistema de proteção"
+    ],
+    "answer": "Compra de prisioneiros de guerra indígenas",
+    "justification": "O resgate era a prática de 'comprar' indígenas que seriam supostamente executados por outras tribos, justificando assim sua escravização."
+  },
+  {
+    "id": 94,
+    "text": "Qual foi a importância da Companhia de Jesus na colonização?",
+    "options": [
+      "Catequização e controle dos indígenas",
+      "Exploração econômica",
+      "Defesa militar",
+      "Administração colonial"
+    ],
+    "answer": "Catequização e controle dos indígenas",
+    "justification": "A Companhia de Jesus foi fundamental na colonização através da catequização dos indígenas e sua incorporação ao sistema colonial português."
+  },
+  {
+    "id": 95,
+    "text": "O que foi o 'Levante dos Tupinambás' (1617)?",
+    "options": [
+      "Revolta contra a colonização no Maranhão",
+      "Aliança com os portugueses",
+      "Conflito entre tribos",
+      "Movimento religioso"
+    ],
+    "answer": "Revolta contra a colonização no Maranhão",
+    "justification": "O Levante dos Tupinambás foi uma grande revolta indígena contra a presença portuguesa no Maranhão, motivada pela escravização e maus-tratos."
+  },
+  {
+    "id": 96,
+    "text": "Como era o sistema de trabalho compulsório indígena?",
+    "options": [
+      "Repartição dos índios entre colonos e missões",
+      "Trabalho assalariado",
+      "Sistema de parceria",
+      "Escravidão permanente"
+    ],
+    "answer": "Repartição dos índios entre colonos e missões",
+    "justification": "O sistema alternava períodos de trabalho dos índios aldeados entre os colonos e as missões religiosas, sob supervisão dos jesuítas."
+  },
+  {
+    "id": 97,
+    "text": "Qual foi o impacto das doenças europeias sobre os indígenas?",
+    "options": [
+      "Dizimação de grande parte da população",
+      "Desenvolvimento de imunidade",
+      "Impacto limitado",
+      "Surgimento de medicina tradicional"
+    ],
+    "answer": "Dizimação de grande parte da população",
+    "justification": "As doenças trazidas pelos europeus, como varíola e sarampo, dizimaram grande parte da população indígena que não tinha imunidade."
+  },
+  {
+    "id": 98,
+    "text": "O que foram as 'tropas de resgate'?",
+    "options": [
+      "Expedições para captura de índios",
+      "Forças de proteção indígena",
+      "Grupos de comerciantes",
+      "Missões religiosas"
+    ],
+    "answer": "Expedições para captura de índios",
+    "justification": "As tropas de resgate eram expedições oficiais que adentravam o sertão para capturar índios, supostamente para salvá-los do canibalismo."
+  },
+  {
+    "id": 99,
+    "text": "Como era a relação entre bandeirantes e indígenas?",
+    "options": [
+      "Conflituosa e baseada na escravização",
+      "Pacífica e comercial",
+      "Aliança militar",
+      "Cooperação cultural"
+    ],
+    "answer": "Conflituosa e baseada na escravização",
+    "justification": "Os bandeirantes tinham uma relação principalmente predatória com os indígenas, realizando expedições para capturá-los e escravizá-los."
+  },
+  {
+    "id": 100,
+    "text": "Qual foi o papel das epidemias na conquista portuguesa?",
+    "options": [
+      "Facilitou a dominação dos povos indígenas",
+      "Não teve impacto significativo",
+      "Prejudicou a colonização",
+      "Fortaleceu as tribos"
+    ],
+    "answer": "Facilitou a dominação dos povos indígenas",
+    "justification": "As epidemias enfraqueceram significativamente as populações indígenas, facilitando sua dominação pelos portugueses."
   }
 ]
