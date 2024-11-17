@@ -17,6 +17,11 @@
       :justification="currentQuestion?.justification"
       @close="closeJustification"
     />
+    <VictoryModal 
+      :isVisible="isVictoryModalVisible"
+      :playerName="currentPlayerName"
+      @restart="restartGame"
+    />
   </div>
 </template>
 
@@ -26,6 +31,7 @@ import GameTable from './GameTable.vue';
 import QuestionBox from './QuestionBox.vue';
 import FeedbackModal from './FeedbackModal.vue';
 import JustificationModal from './JustificationModal.vue';
+import VictoryModal from './VictoryModal.vue';
 import questions from '../data/historia-brasil.json';
 
 const props = defineProps(['playerNames']);
@@ -40,6 +46,7 @@ const isFeedbackVisible = ref(false);
 const feedbackType = ref('');
 const isChangingTurn = ref(false);
 const isJustificationVisible = ref(false);
+const isVictoryModalVisible = ref(false);
 
 const feedbackTimeout = ref(null);
 const turnChangeTimeout = ref(null);
@@ -61,6 +68,12 @@ function handleAnswer(answer) {
   if (answer.trim().toLowerCase() === correctAnswer.toLowerCase()) {
     gameTable.value.movePawn(currentPlayerIndex.value);
     correctSound.play();
+    
+    if (checkVictory(currentPlayerIndex.value)) {
+      isVictoryModalVisible.value = true;
+      return;
+    }
+    
     showFeedback("Resposta Correta!", true);
     switchTurn();
   } else {
@@ -115,6 +128,20 @@ function closeJustification() {
   }, 1500);
   
   switchTurn();
+}
+
+function restartGame() {
+  isGameStarted.value = true;
+  isJustificationVisible.value = false;
+  isVictoryModalVisible.value = false;
+  currentPlayerIndex.value = 0;
+  gameTable.value.resetPawns();
+  loadNextQuestion();
+}
+
+function checkVictory(playerIndex) {
+  const pawnPosition = gameTable.value.getPawnPosition(playerIndex);
+  return pawnPosition.row === 3 && pawnPosition.col === 0;
 }
 
 onUnmounted(() => {

@@ -138,8 +138,36 @@
     const centerHeight = cellHeight * 2;
     context.drawImage(centerImage, centerX, centerY, centerWidth, centerHeight);
   }
-
-  defineExpose({ movePawn });
+  
+  function getPawnPosition(pawnIndex) {
+    return pawnPositions.value[pawnIndex];
+  }
+  
+  function resetPawns() {
+    pawnPositions.value = [
+      { row: 3, col: 0, color: 'red' },
+      { row: 3, col: 0, color: 'blue' }
+    ]; 
+    
+    const canvas = boardCanvas.value;
+    const context = canvas.getContext('2d');
+    const rows = 4;
+    const cols = 6;
+    const cellWidth = canvas.width / cols;
+    const cellHeight = canvas.height / rows;
+  
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    drawBoard(context, rows, cols, cellWidth, cellHeight);
+    drawAllPawns(context, cellWidth, cellHeight);
+    
+    const centerX = cellWidth * 1;
+    const centerY = cellHeight * 1;
+    const centerWidth = cellWidth * 4;
+    const centerHeight = cellHeight * 2;
+    context.drawImage(centerImage, centerX, centerY, centerWidth, centerHeight);
+  }
+  
+  defineExpose({ movePawn, getPawnPosition, resetPawns });
   </script>
   
   <style>
