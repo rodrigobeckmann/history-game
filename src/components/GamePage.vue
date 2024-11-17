@@ -4,7 +4,6 @@
     <div class="game-container">
       <QuestionBox
         :question="currentQuestion"
-        :playerColor="currentPlayerColor"
         :isVisible="isGameStarted"
         @answer="handleAnswer"
         class="question-box"
@@ -57,10 +56,36 @@ const wrongSound = new Audio(new URL('../assets/sounds/wrong.mp3', import.meta.u
 const currentPlayerName = computed(() => props.playerNames[currentPlayerIndex.value]);
 const currentPlayerColor = computed(() => (currentPlayerIndex.value === 0 ? 'Red' : 'Blue'));
 
-watch(() => props.playerNames, () => loadNextQuestion(), { immediate: true });
+const questionPool = ref([...questions]); // Lista de todas as perguntas disponíveis
+const wrongAnswers = ref([]); // Lista de perguntas respondidas incorretamente
+
+function shuffleQuestions() {
+  for (let i = questionPool.value.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [questionPool.value[i], questionPool.value[j]] = [questionPool.value[j], questionPool.value[i]];
+  }
+}
+
+function shuffleOptions(question) {
+  const options = [...question.options];
+  for (let i = options.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [options[i], options[j]] = [options[j], options[i]];
+  }
+  return { ...question, options };
+}
 
 function loadNextQuestion() {
-  currentQuestion.value = questions[currentPlayerIndex.value % questions.length];
+  // Se a lista principal estiver vazia, adiciona as perguntas erradas de volta
+  if (questionPool.value.length === 0) {
+    questionPool.value = [...wrongAnswers.value];
+    wrongAnswers.value = [];
+    shuffleQuestions();
+  }
+  
+  // Pega a próxima pergunta da lista e embaralha suas opções
+  const nextQuestion = questionPool.value.shift();
+  currentQuestion.value = shuffleOptions(nextQuestion);
 }
 
 function handleAnswer(answer) {
@@ -78,6 +103,8 @@ function handleAnswer(answer) {
     switchTurn();
   } else {
     wrongSound.play();
+    // Adiciona a pergunta atual à lista de erradas
+    wrongAnswers.value.push(currentQuestion.value);
     showFeedback("Resposta Incorreta!", false);
     isJustificationVisible.value = true;
   }
@@ -131,6 +158,11 @@ function closeJustification() {
 }
 
 function restartGame() {
+  // Reinicializa as listas de perguntas
+  questionPool.value = [...questions];
+  wrongAnswers.value = [];
+  shuffleQuestions();
+  
   isGameStarted.value = true;
   isJustificationVisible.value = false;
   isVictoryModalVisible.value = false;
@@ -151,35 +183,41 @@ onUnmounted(() => {
 
 correctSound.volume = 0.3;
 wrongSound.volume = 0.1;
+
+// Inicializa o jogo com as perguntas embaralhadas
+watch(() => props.playerNames, () => {
+  shuffleQuestions();
+  loadNextQuestion();
+}, { immediate: true });
 </script>
 
-<style scoped>
+<style>
 .game-wrapper {
   text-align: center;
-  padding: 20px;
 }
 
 .game-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 50px;
   margin-top: 20px;
-  max-width: 1400px;
-  margin: 20px auto;
 }
 
 .game-table {
-  flex: 1;
+  flex: 2;
 }
 
 .question-box {
-  flex: 0 0 400px;
+  flex: 1;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
 }
 
-h2 {
-  color: white;
-  margin-bottom: 30px;
+button {
+  margin: 5px;
 }
 
 .feedback-modal.turn {

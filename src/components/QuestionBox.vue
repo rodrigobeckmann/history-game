@@ -1,7 +1,6 @@
 <template>
   <div class="question-container">
     <div class="question-content">
-      <h3>Pergunta para o Jogador {{ playerColor }}</h3>
       <p class="question-text">{{ question.text }}</p>
       <div class="options">
         <label v-for="(option, index) in question.options" :key="index" class="option-label">
@@ -19,7 +18,7 @@
 <script setup>
 import { ref } from 'vue';
 
-const props = defineProps(['question', 'playerColor']);
+const props = defineProps(['question']);
 const emit = defineEmits(['answer']);
 
 const selectedOption = ref('');
