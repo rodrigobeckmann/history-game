@@ -153,33 +153,33 @@ correctSound.volume = 0.3;
 wrongSound.volume = 0.1;
 </script>
 
-<style>
+<style scoped>
 .game-wrapper {
   text-align: center;
+  padding: 20px;
 }
 
 .game-container {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   gap: 50px;
   margin-top: 20px;
+  max-width: 1400px;
+  margin: 20px auto;
 }
 
 .game-table {
-  flex: 2;
+  flex: 1;
 }
 
 .question-box {
-  flex: 1;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
+  flex: 0 0 400px;
 }
 
-button {
-  margin: 5px;
+h2 {
+  color: white;
+  margin-bottom: 30px;
 }
 
 .feedback-modal.turn {
